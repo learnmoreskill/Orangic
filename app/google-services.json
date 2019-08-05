@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400758295093",
+    "firebase_url": "https://orangic-7acab.firebaseio.com",
+    "project_id": "orangic-7acab",
+    "storage_bucket": "orangic-7acab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400758295093:android:a7e7c03e1b558701",
+        "android_client_info": {
+          "package_name": "com.orangicsmarttechnology.orangic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400758295093-jq7lt4q8e4ajr2tm9k8fn6cuj53400gd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orangicsmarttechnology.orangic",
+            "certificate_hash": "2b7ec69bbb9b84ce09bc9cb0038695b51d47f2dc"
+          }
+        },
+        {
+          "client_id": "400758295093-nmt2h615j8msh0b6c6ja70qdejsovt43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpyjdTvuP9wOXLrHEm_tc2QlJZtUElzwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400758295093-nmt2h615j8msh0b6c6ja70qdejsovt43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

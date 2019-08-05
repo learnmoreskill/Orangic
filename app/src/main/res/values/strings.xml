@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">Orangic</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Orangic</string>
+    <string name="nav_header_subtitle">orangicsmarttechnology.com.np</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+
+    <!-- TEST AD APP Id-->
+    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!-- Orangic AD APP Id-->
+    <!--<string name="ad_app_id">ca-app-pub-4142525948953301~9579245777</string>-->
+
+    <!--Test Banner Ad Unit Id-->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- Orangic Banner AD Unit Id-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-4142525948953301/6680129005</string>-->
+
+    <!--Test Interstitial Ad Unit Id-->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- Orangic Interstitial AD Unit Id-->
+    <!--<string name="interstitial_ad_unit_id"></string>-->
+
+    <string name="share_link">https://play.google.com/store/apps/details?id=com.orangicsmarttechnology.orangic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="news1">Kantipur</string>
+
+    <string name="nav_title_first">Dashboard</string>
+    <string name="nav_title_second">News</string>
+    <string name="nav_title_third">Compound Interest</string>
+    <string name="nav_title_four">Emergency Number</string>
+    <string name="nav_sub_menu_title">Communicate</string>
+
+    <string name="nav_sub_title_first">Share</string>
+    <string name="nav_sub_title_second">Update</string>
+    <string name="nav_sub_title_third">About</string>
+
+    <string name="interest_start_date">रकम लिएको मिति</string>
+    <string name="interest_last_date">रकम बुझाउने मिति</string>
+    <string name="interest_year">साल</string>
+    <string name="interest_month">महिना</string>
+    <string name="interest_day">गते</string>
+    <string name="interest_principal">मूलधन</string>
+    <string name="interest_rate">ब्याज दर</string>
+    <string name="interest_submit">जोड्नुहोस</string>
+    <string name="interest_clear">मिटाउनुहोस</string>
+    <string name="interest_duration">ब्याज चलेको अवधि :</string>
+    <string name="interest_ci">जम्मा ब्याज मूलधन सहित :</string>
+    <string name="interest_i">जम्मा ब्याज :</string>
+
+</resources>

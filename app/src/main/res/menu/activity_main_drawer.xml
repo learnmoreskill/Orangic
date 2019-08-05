@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_id_first"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_title_first" />
+        <item
+            android:id="@+id/nav_id_second"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_title_second" />
+        <item
+            android:id="@+id/nav_id_third"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_title_third" />
+        <item
+            android:id="@+id/nav_id_four"
+            android:icon="@drawable/ic_call_blue_grey_800_24dp"
+            android:title="@string/nav_title_four" />
+    </group>
+
+    <item android:title="@string/nav_sub_menu_title">
+        <menu>
+            <item
+                android:id="@+id/nav_sub_id_first"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_sub_title_first" />
+            <item
+                android:id="@+id/nav_sub_id_second"
+                android:icon="@drawable/ic_system_update_alt_black_18dp"
+                android:title="@string/nav_sub_title_second" />
+            <item
+                android:id="@+id/nav_sub_id_third"
+                android:icon="@drawable/ic_info_outline"
+                android:title="@string/nav_sub_title_third" />
+        </menu>
+    </item>
+
+</menu>

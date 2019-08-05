@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.NewsFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/gorkhapatra"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#333"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/gorkhapatra"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Gorkhapatra"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/ekantipur"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#333"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/ekantipur"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Ekantipur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/annapurnapost"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/annapurnapost"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Annapurna Post"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/nagriknews"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/nagriknews"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Nagrik News"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/appantv"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/appantv"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Appan Tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/ratopati"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#dd3333"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/ratopati"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Ratopati"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/setopati"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/setopati"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:text="Setopati"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/thahakhabar"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#757575"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/thahakhabar"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Thahakhabar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/onlinekhabar"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/onlinekhabar"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:text="Onlinekhabar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/thehimalayan"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/thehimalayan"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="The Himalayan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/myrepublica"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/myrepublica"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="My Republica"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/mysansar"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/mysansar"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="Mysansar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/bbcnepali"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/bbcnepali"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:text="BBC Nepali"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/ujyaalo"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/ujyaalo"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:text="Ujyaalo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/newsbureau"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:background="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/newsbureau"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:text="Newsbureau"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="8dp">
+
+                    <LinearLayout
+                        android:id="@+id/nepalsamaya"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:src="@drawable/nepalsamaya"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp" />
+                        <TextView
+                            android:layout_marginTop="12dp"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:text="Nepalsamaya"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</FrameLayout>
